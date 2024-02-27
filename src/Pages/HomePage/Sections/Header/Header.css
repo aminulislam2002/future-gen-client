@@ -1,0 +1,6 @@
+.banner {
+  height: 650px;
+  position: relative;
+  background-position: bottom, top;
+  background-repeat: no-repeat;
+}

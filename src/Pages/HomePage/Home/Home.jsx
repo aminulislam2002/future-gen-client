@@ -1,10 +1,11 @@
+import Header from "../Sections/Header/Header";
 
 const Home = () => {
-    return (
-        <div>
-            <h1>Home</h1>
-        </div>
-    );
+  return (
+    <div>
+      <Header></Header>
+    </div>
+  );
 };
 
 export default Home;
