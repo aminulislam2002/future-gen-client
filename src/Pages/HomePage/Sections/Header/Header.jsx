@@ -1,5 +1,5 @@
-import bg5 from "../../../../assets/bg/bg5.png";
-import bg6 from "../../../../assets/bg/bg6.png";
+import bg_image_one from "../../../../assets/bg-images/bg-image-one.png";
+import bg_image_two from "../../../../assets/bg-images/bg_image_two.png";
 
 import "./Header.css";
 
@@ -9,7 +9,7 @@ const Header = () => {
       <div
         className="banner bg-primary"
         style={{
-          backgroundImage: `url(${bg5}), url(${bg6}), linear-gradient(90deg, #111c58 0, #5c2782 51%, #111c58)`,
+          backgroundImage: `url(${bg_image_one}), url(${bg_image_two}), linear-gradient(90deg, #111c58 0, #5c2782 51%, #111c58)`,
         }}
       >
         <div className="container">
@@ -29,7 +29,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <div>{/* <img src={bg5} alt="" /> */}</div>
+                <div>{/* <img src={bg_image_one} alt="" /> */}</div>
               </div>
             </div>
           </div>

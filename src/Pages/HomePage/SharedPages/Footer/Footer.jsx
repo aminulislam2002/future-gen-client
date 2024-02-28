@@ -1,9 +1,17 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
+import bg_image_one from "../../../../assets/bg-images/bg-image-one.png";
+import bg_image_two from "../../../../assets/bg-images/bg_image_two.png";
+
 const Footer = () => {
   return (
     <div>
-      <div className="mt-5" style={{ background: "linear-gradient(90deg, #111c58 0, #5c2782 51%, #111c58)" }}>
+      <div
+        className="mt-5"
+        style={{
+          backgroundImage: `url(${bg_image_one}), url(${bg_image_two}), linear-gradient(90deg, #111c58 0, #5c2782 51%, #111c58)`,
+        }}
+      >
         <footer className="text-white text-center text-lg-start">
           <div className="container p-4">
             <div className="row mt-4">
