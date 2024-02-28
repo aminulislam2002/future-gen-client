@@ -1,4 +1,7 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { IoIosCall } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
+import { IoLocationSharp } from "react-icons/io5";
 
 import bg_image_one from "../../../../assets/bg-images/bg-image-one.png";
 import bg_image_two from "../../../../assets/bg-images/bg_image_two.png";
@@ -30,7 +33,7 @@ const Footer = () => {
 
                 <div className="mt-4">
                   <a type="button" className="">
-                    <FaFacebook style={{ width: "25px", height: "25px", marginLeft: "15px", color: "white" }}></FaFacebook>
+                    <FaFacebook style={{ width: "25px", height: "25px", color: "white" }}></FaFacebook>
                   </a>
 
                   <a type="button" className="">
@@ -52,26 +55,35 @@ const Footer = () => {
               </div>
 
               <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
-                <h5 className="text-uppercase mb-4 pb-1">Search something</h5>
+                <h5 className="text-uppercase mb-4 pb-1">Contact us</h5>
 
-                <ul className="fa-ul">
-                  <li className="mb-3">
-                    <span className="fa-li">
-                      <i className="fas fa-home"></i>
+                <ul className="ps-0">
+                  <li className="d-flex align-items-center gap-2 mb-3">
+                    <div>
+                      <IoIosCall style={{ width: "25px", height: "25px", color: "white" }}></IoIosCall>
+                    </div>
+                    <span>
+                      +88 01310-112464
+                      <br />
+                      +88 01719-006757
                     </span>
-                    <span className="ms-2">Warsaw, 00-967, Poland</span>
                   </li>
-                  <li className="mb-3">
-                    <span className="fa-li">
-                      <i className="fas fa-envelope"></i>
+                  <li className="d-flex align-items-center gap-2 mb-3">
+                    <div>
+                      <MdEmail style={{ width: "25px", height: "25px", color: "white" }}></MdEmail>
+                    </div>
+                    <span>
+                      hellofuturegenmedia@gmail.com <br />
+                      aminulislamemon2002@gmail.com
                     </span>
-                    <span className="ms-2">hellofuturegenmedia@gmail.com</span>
                   </li>
-                  <li className="mb-3">
-                    <span className="fa-li">
-                      <i className="fas fa-phone"></i>
+                  <li className="d-flex align-items-center gap-2 mb-3">
+                    <div>
+                      <IoLocationSharp style={{ width: "25px", height: "25px", color: "white" }}></IoLocationSharp>
+                    </div>
+                    <span>
+                      12, Mirpur Road Dhanmondi, <br></br> Dhaka-1209
                     </span>
-                    <span className="ms-2">+880 1310-112464</span>
                   </li>
                 </ul>
               </div>
@@ -79,22 +91,26 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <h5 className="text-uppercase mb-4">Opening hours</h5>
 
-                <table className="table text-center text-white">
-                  <tbody className="fw-normal">
-                    <tr>
-                      <td>Day</td>
-                      <td>Time</td>
-                    </tr>
-                    <tr>
-                      <td>Sun - Thu</td>
-                      <td>9am - 10pm</td>
-                    </tr>
-                    <tr>
-                      <td>Friday - Saturday</td>
-                      <td>3pm - 11pm</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div className="table-responsive">
+                  <table className="table text-center text-white">
+                    <thead className="thead-dark">
+                      <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Time</th>
+                      </tr>
+                    </thead>
+                    <tbody className="fw-normal">
+                      <tr>
+                        <td>Sun - Thu</td>
+                        <td>9am - 10pm</td>
+                      </tr>
+                      <tr>
+                        <td>Friday - Saturday</td>
+                        <td>3pm - 11pm</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
