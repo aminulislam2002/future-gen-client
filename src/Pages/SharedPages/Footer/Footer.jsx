@@ -3,8 +3,8 @@ import { IoIosCall } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 
-import bg_image_one from "../../../../assets/bg-images/bg-image-one.png";
-import bg_image_two from "../../../../assets/bg-images/bg_image_two.png";
+import bg_image_one from "../../../assets/bg-images/bg-image-one.png";
+import bg_image_two from "../../../assets/bg-images/bg_image_two.png";
 
 const Footer = () => {
   return (
