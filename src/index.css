@@ -12,9 +12,15 @@
   padding-bottom: 70px;
 }
 
-.title {
+.section-title {
   font-size: 45px;
   line-height: 1.2;
+  font-weight: 700;
+  color: #1f2471;
+}
+
+.title {
+  text-transform: capitalize !important;
   font-weight: 700;
   color: #1f2471;
 }
@@ -26,11 +32,34 @@
   color: #1f2471;
 }
 
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1f2471;
+}
+
 .counter {
   font-size: 35px;
   line-height: 1.2;
   font-weight: 700;
   color: #ef146e;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 /* Responsive styles for tablets (768px and below) */

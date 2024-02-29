@@ -1,0 +1,40 @@
+/* Default styles for larger screens */
+.of-separator {
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  height: 4px;
+  width: 70px;
+  right: 95px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+}
+
+.icon-bx-sm {
+  display: inline-block;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 100%;
+}
+
+.shadow-primary {
+  box-shadow: 0 2px 15px rgba(240, 31, 117, 0.5);
+}
+
+/* Responsive styles for tablets (768px and below) */
+@media only screen and (max-width: 768px) {
+  .of-separator {
+    width: 55px;
+    right: 68px;
+  }
+}
+
+/* Responsive styles for mobile devices (480px and below) */
+@media only screen and (max-width: 480px) {
+  .of-separator {
+    width: 48px;
+    right: 52px;
+  }
+}

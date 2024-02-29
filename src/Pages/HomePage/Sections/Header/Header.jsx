@@ -17,9 +17,9 @@ const Header = () => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <div className="banner-content text-white">
-                  <h6 className="sub-title text-warning">We Are Product Designer From Bangladesh</h6>
-                  <h1 className="m-b20">We Design Interfaces That Users Love</h1>
-                  <p className="m-b30">
+                  <h6 className="sub-section-title text-warning">We Are Product Designer From Bangladesh</h6>
+                  <h1 className="mb-20">We Design Interfaces That Users Love</h1>
+                  <p className="mb-30">
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac
                     at purus.
                   </p>
