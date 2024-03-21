@@ -1,0 +1,78 @@
+.dlab-section {
+  background-color: #f8f5ff;
+}
+
+.dlab-name {
+  font-size: 20px;
+  text-transform: capitalize !important;
+  font-weight: 700;
+  color: #1f2471;
+}
+.clearfix {
+  text-align: center;
+}
+
+.dlab-section {
+  background-color: #f8f5ff;
+  padding: 50px 0;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #1f2471;
+}
+
+.of-separator {
+  width: 50px;
+  height: 3px;
+  margin: 20px auto;
+  background: linear-gradient(to right, #1f2471, #77bbff);
+}
+
+.expertise-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.expertise-card:hover {
+  transform: translateY(-5px);
+}
+
+.expertise-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+.expertise-details {
+  padding: 20px;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+/* Responsive styles for tablets (768px and below) */
+@media only screen and (max-width: 768px) {
+  .dlab-name {
+    font-size: 26px;
+  }
+  .expertise-image {
+    height: 380px;
+  }
+}
+
+/* Responsive styles for mobile devices (480px and below) */
+@media only screen and (max-width: 480px) {
+  .dlab-name {
+    font-size: 18px;
+  }
+  .expertise-image {
+    height: 400px;
+  }
+}

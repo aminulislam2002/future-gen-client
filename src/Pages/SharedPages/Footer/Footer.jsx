@@ -10,7 +10,6 @@ const Footer = () => {
   return (
     <div>
       <div
-        className="mt-5"
         style={{
           backgroundImage: `url(${bg_image_one}), url(${bg_image_two}), linear-gradient(90deg, #111c58 0, #5c2782 51%, #111c58)`,
         }}
@@ -21,34 +20,34 @@ const Footer = () => {
               <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
                 <h5 className="text-uppercase mb-4">About company</h5>
 
-                <p className="">
+                <p>
                   FutureGen IT Media Agency Established on 25 March 2023, FutureGen IT Media Agency stands as a beacon of
                   innovation and excellence in the creative media landscape.
                 </p>
 
-                <p className="">
+                <p>
                   With an unwavering commitment to delivering superior digital solutions, we redefine industry standards and
                   exceed client expectations.
                 </p>
 
                 <div className="mt-4">
-                  <a type="button" className="">
+                  <a type="button">
                     <FaFacebook style={{ width: "25px", height: "25px", color: "white" }}></FaFacebook>
                   </a>
 
-                  <a type="button" className="">
+                  <a type="button">
                     <FaInstagram style={{ width: "25px", height: "25px", marginLeft: "15px", color: "white" }}></FaInstagram>
                   </a>
 
-                  <a type="button" className="">
+                  <a type="button">
                     <FaTwitter style={{ width: "25px", height: "25px", marginLeft: "15px", color: "white" }}></FaTwitter>
                   </a>
 
-                  <a type="button" className="">
+                  <a type="button">
                     <FaYoutube style={{ width: "25px", height: "25px", marginLeft: "15px", color: "white" }}></FaYoutube>
                   </a>
 
-                  <a type="button" className="">
+                  <a type="button">
                     <FaLinkedin style={{ width: "25px", height: "25px", marginLeft: "15px", color: "white" }}></FaLinkedin>
                   </a>
                 </div>
