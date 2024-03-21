@@ -23,7 +23,7 @@ const Header = () => {
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac
                     at purus.
                   </p>
-                  <button className="gradient text-white fw-bold text-decoration-none border-none border-0 rounded-2 py-3 px-5">
+                  <button className="btn-learn-more">
                     Learn More
                   </button>
                 </div>

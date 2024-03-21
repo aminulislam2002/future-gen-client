@@ -4,3 +4,31 @@
   background-position: bottom, top;
   background-repeat: no-repeat;
 }
+
+.btn-learn-more {
+  background-image: linear-gradient(to right, #ef146e 0%, #fea958 51%, #ef146e 100%);
+  margin: 10px;
+  padding: 12px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.btn-learn-more:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+}

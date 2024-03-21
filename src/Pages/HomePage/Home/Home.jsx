@@ -1,13 +1,15 @@
 import Header from "../Sections/Header/Header";
 import OurFetures from "../Sections/OurFetures/OurFetures";
-import WhyOurAgency from "../Sections/WhyOurAgency/WhyOurAgency";
+import PackagesPlan from "../Sections/PackagesPlan/PackagesPlan";
+import AboutOurAgency from "../Sections/AboutOurAgency/AboutOurAgency"
 
 const Home = () => {
   return (
     <div>
       <Header></Header>
-      <WhyOurAgency></WhyOurAgency>
+      <AboutOurAgency></AboutOurAgency>
       <OurFetures></OurFetures>
+      <PackagesPlan></PackagesPlan>
     </div>
   );
 };

@@ -1,20 +1,20 @@
 import image from "../../../../assets/section/why-our-agency.png";
 
-import "./WhyOurAgency.css";
+import "./AboutOurAgency.css";
 
-const WhyOurAgency = () => {
+const AboutOurAgency = () => {
   return (
     <div className="content-inner">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 h-100">
             <div className="d-flex justify-content-center align-items-center">
-              <img src={image} alt="Why our agency?" className="img-fluid woa-image" />
+              <img src={image} alt="About our agency?" className="img-fluid woa-image" />
             </div>
           </div>
           <div className="col-lg-6 h-100">
             <div className="mb-30">
-              <h2 className="section-title">Why Our Agency</h2>
+              <h2 className="section-title">About Our Agency</h2>
               <div className="woa-separator gradient"></div>
             </div>
             <p className="description">
@@ -31,7 +31,7 @@ const WhyOurAgency = () => {
                 <div className="woa-content-box text-center">
                   <div className="icon-content">
                     <h2 className="counter m-b0">
-                      <span>10</span>
+                      <span>30</span>
                     </h2>
                     <span className="sub-section-title">Satisfied Clients</span>
                   </div>
@@ -41,7 +41,7 @@ const WhyOurAgency = () => {
                 <div className="woa-content-box text-center">
                   <div className="icon-content">
                     <h2 className="counter m-b0">
-                      <span>17</span>
+                      <span>33</span>
                     </h2>
                     <span className="sub-section-title">Project Launched</span>
                   </div>
@@ -65,4 +65,4 @@ const WhyOurAgency = () => {
   );
 };
 
-export default WhyOurAgency;
+export default AboutOurAgency;

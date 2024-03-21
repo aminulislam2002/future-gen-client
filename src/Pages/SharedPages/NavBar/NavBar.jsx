@@ -34,8 +34,8 @@ const NavBar = () => {
             </Nav.Link>
           </Nav>
           <Form className="d-flex">
-            <Button variant="outline-success" className="gradient border-0 text-white">
-              Say Hi
+            <Button variant="outline-success" className="btn-get-a-quote">
+              Get A Quote
             </Button>
           </Form>
         </Navbar.Collapse>

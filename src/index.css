@@ -14,12 +14,13 @@
 
 .section-title {
   font-size: 45px;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: 700;
   color: #1f2471;
 }
 
 .title {
+  font-size: 30px;
   text-transform: capitalize !important;
   font-weight: 700;
   color: #1f2471;
@@ -27,7 +28,7 @@
 
 .sub-title {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: 500;
   color: #1f2471;
 }
@@ -41,7 +42,7 @@
 
 .counter {
   font-size: 35px;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: 700;
   color: #ef146e;
 }
@@ -69,8 +70,12 @@
     padding-bottom: 50px;
   }
 
-  .title {
+  .section-title {
     font-size: 36px;
+  }
+
+  .title {
+    font-size: 26px;
   }
 
   .sub-title {
@@ -89,8 +94,12 @@
     padding-bottom: 30px;
   }
 
-  .title {
+  .section-title{
     font-size: 28px;
+  }
+
+  .title {
+    font-size: 18px;
   }
 
   .sub-title {
